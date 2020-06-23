@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <div class="description">
+        <h1>Trung Tam Dao Tao Lap Trinh Vien Iviettech</h1>
+      </div>
+    </header>
+    <div class="menu">
+      <div class="home">
+        <a href="./index.html">Home</a>
+      </div>
+      <div class="phone">
+        <a href="./components/phone.html">Phone</a>
+        <i class="fas fa-chevron-down"></i>
+        <ul class="phone-item">
+          <li>Management</li>
+          <li>List</li>
+        </ul>
+      </div>
+      <div class="laptop">
+        <a href="./components/laptop.html">Laptop</a>
+      </div>
+    </div>
+    <main>
+      <div class="main-description">
+        <form id="form-add">
+          <div>
+            <label>Name:</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Price:</label>
+            <input type="number" />
+          </div>
+          <div>
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+        <div id="list-item">
+          <table>
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Name</th>
+                <th>Pirce</th>
+                <th>Image</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Iphone</td>
+                <td>1.200.000</td>
+                <td>1.200.000</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Sam Sung</td>
+                <td>1.200.000</td>
+                <td>1.200.000</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>I Sung</td>
+                <td>1.200.000</td>
+                <td>1.200.000</td>
+                <td>X</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>Coppy right &copy; FE12</p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/e8aa1f6a53.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/remove.js"></script>
+  </body>
+</html>
